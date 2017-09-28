@@ -6,6 +6,7 @@ class Song
   attr_reader :artist
 
   extend Memorable
+  include Paramble
 
   @@songs = []
 
